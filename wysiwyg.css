@@ -1,0 +1,23 @@
+img{
+  width: 100px;
+  height: 100px;
+
+}
+
+.card{
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  background-color: lightYellow;
+  margin: 25px;
+  display: inline-block;
+}
+
+.card:nth-of-type(even){
+  background-color: lightBlue;
+}
+
+.selected{
+  border-style:dotted;
+}
+
